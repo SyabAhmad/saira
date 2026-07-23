@@ -5,7 +5,7 @@ export default function Hero() {
         <div className="hero-content">
           <p className="hero-greeting">Hi, I'm</p>
           <h1 className="hero-title">
-            Saira Shafeeq
+            Saira Shafiq
           </h1>
           <p className="hero-role">Full-Stack Developer</p>
           <p className="hero-location">
@@ -27,7 +27,7 @@ export default function Hero() {
         <div className="hero-image">
           <img
             src="/Saira.png"
-            alt="Saira Shafeeq"
+            alt="Saira Shafiq"
           />
         </div>
       </div>

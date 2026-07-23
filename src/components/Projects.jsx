@@ -6,7 +6,7 @@ const projects = [
     icon: '🎉',
   },
   {
-    title: 'Saira Shafeeq Portfolio',
+    title: 'Saira Shafiq Portfolio',
     desc: 'My personal portfolio website built with React and Vite. Showcasing my skills, projects, and experience as a full-stack developer.',
     tags: ['React', 'Vite', 'CSS3', 'JavaScript'],
     icon: '💼',
