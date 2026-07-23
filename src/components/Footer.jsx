@@ -6,7 +6,7 @@ export default function Footer() {
           Built with <span className="footer-heart">&#9829;</span> by Saira Shafiq
         </p>
         <p className="footer-credit">
-          Guided by <a href="https://syab.tech/mentee" target="_blank" rel="noopener noreferrer">MenteE</a>
+          Referenced by <a href="https://syab.tech/mentee" target="_blank" rel="noopener noreferrer">MenteE</a>
         </p>
         <p className="footer-copy">&copy; {new Date().getFullYear()} All rights reserved.</p>
       </div>
