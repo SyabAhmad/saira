@@ -6,21 +6,18 @@
   --pink-400: #f472b6;
   --pink-500: #ec4899;
   --pink-600: #db2777;
-  --purple-200: #c084fc;
-  --purple-400: #a78bfa;
-  --purple-500: #8b5cf6;
-  --cream: #fff5f7;
-  --dark: #1e0a1e;
-  --gray: #6b6375;
-  --gray-light: #a8a0b0;
+  --cream: #fff9fb;
+  --dark: #2d2d2d;
+  --gray: #666;
+  --gray-light: #999;
   --white: #ffffff;
-  --shadow: 0 4px 20px rgba(236, 72, 153, 0.12);
-  --shadow-hover: 0 8px 30px rgba(236, 72, 153, 0.2);
-  --radius: 16px;
-  --radius-sm: 10px;
-  --transition: 0.3s ease;
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  --shadow-hover: 0 4px 20px rgba(0, 0, 0, 0.1);
+  --radius: 12px;
+  --radius-sm: 8px;
+  --transition: 0.2s ease;
 
-  --heading: 'Playfair Display', Georgia, serif;
+  --heading: 'Caveat', cursive;
   --body: 'Inter', system-ui, -apple-system, sans-serif;
 
   scroll-behavior: smooth;
@@ -70,10 +67,10 @@ ul {
 
 .section-title {
   font-family: var(--heading);
-  font-size: 2.2rem;
-  font-weight: 600;
+  font-size: 2.6rem;
+  font-weight: 700;
   color: var(--dark);
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   text-align: center;
 }
 
@@ -86,10 +83,7 @@ ul {
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, var(--pink-500), var(--purple-500));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--pink-500);
 }
 
 .btn {
@@ -107,25 +101,25 @@ ul {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--pink-500), var(--purple-500));
+  background: var(--pink-500);
   color: white;
-  box-shadow: 0 4px 15px rgba(236, 72, 153, 0.3);
+  box-shadow: 0 2px 8px rgba(236, 72, 153, 0.2);
 }
 
 .btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 25px rgba(236, 72, 153, 0.4);
+  background: var(--pink-600);
+  transform: translateY(-1px);
 }
 
 .btn-outline {
   background: transparent;
   color: var(--pink-500);
-  border: 2px solid var(--pink-300);
+  border: 1.5px solid var(--pink-200);
 }
 
 .btn-outline:hover {
   background: var(--pink-50);
-  border-color: var(--pink-500);
+  border-color: var(--pink-400);
 }
 
 .card {
@@ -138,7 +132,6 @@ ul {
 
 .card:hover {
   box-shadow: var(--shadow-hover);
-  transform: translateY(-4px);
 }
 
 .tag {
@@ -147,8 +140,8 @@ ul {
   border-radius: 50px;
   font-size: 0.8rem;
   font-weight: 500;
-  background: var(--pink-100);
-  color: var(--pink-600);
+  background: var(--pink-50);
+  color: var(--pink-500);
 }
 
 @media (max-width: 768px) {
@@ -156,7 +149,7 @@ ul {
     padding: 56px 0;
   }
   .section-title {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
   }
   .section-subtitle {
     margin-bottom: 32px;
